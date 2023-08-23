@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 50px;
+    margin-right: 56.5%;
+    margin-left: 5%;
+    background-image: url("billingbackground.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Divider{
+    display:inline-flex;
+    margin-bottom: 5px;
+}
+
+/* 
+.Pay{
+    margin-left: 150px;
+} */
+
+.Bill,.Pay{
+    padding-right: 5%;
+}
+
+.Header{
+    font-size: 20px;
+}
+
+.PostalAdd{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.ValueField{
+    border: 2px solid #b4cef3;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+}
+
+.Postal_ValueField{
+    border: 2px solid #b5b6b8;
+    border-radius: 4px;
+    height: 30px;
+    width: 98%;
+}
+
+.Btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 3px;
+    background-color: #2b76df;
+    border: 1px solid #2b76df;
+    font-size: 20px;
+}
+
+label{
+    font-size: 17px;
+}
+
+h1,p,label{
+    color: white;
+}
